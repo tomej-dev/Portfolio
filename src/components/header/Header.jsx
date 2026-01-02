@@ -21,7 +21,7 @@ export default function Header(){
         scrolled ? "shadow-md" : "shadow-none"
       } bg-white`}
     >
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+      <div className="max-w-7xl mx-auto flex items-center justify-center sm:justify-between px-6 py-4">
         <Logo />
         <Navigation />
       </div>
